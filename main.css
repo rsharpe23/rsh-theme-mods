@@ -1,0 +1,96 @@
+/* Alert */
+
+.rsh-alert {
+  position: relative;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem 4rem 0.75rem 1.25rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.rsh-alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.rsh-alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.rsh-alert-btn {
+  position: absolute;
+  top: calc(50% - 2px);
+  right: 10px;
+  transform: translateY(-50%);
+  color: inherit;
+  background-color: transparent;
+  border: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: 0 1px 0 #fff;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* Tabs */
+
+.rsh-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.5rem 0 0 0;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.rsh-tab {
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+}
+
+.rsh-tab.active > .rsh-tab-link {
+  color: #000;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  pointer-events: none;
+}
+
+.rsh-tab-link {
+  display: block;
+  margin-bottom: -1px;
+  padding: 5px 10px;
+  color: #555;
+  background-color: #e5e5e5;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.rsh-tab-link:hover {
+  background-color: #fff;
+}
+
+.rsh-tab-pane {
+  display: none;
+}
+
+.rsh-tab-pane.active {
+  display: block;
+}
+
+/* Form */
+
+.rsh-form input[type="text"] {
+  width: 100%;
+  max-width: 450px;
+}
+
+.rsh-form-danger textarea {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
